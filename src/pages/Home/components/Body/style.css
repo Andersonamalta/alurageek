@@ -52,7 +52,7 @@
     flex-grow: 0;
 }
 
-.topo-produto button {
+.button-ver {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -71,6 +71,7 @@
     font-size: 16px;
     line-height: 19px;
     color: #2A7AE4;
+    background-color: transparent;
 }
 
 .produtos{

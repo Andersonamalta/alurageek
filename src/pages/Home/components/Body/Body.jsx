@@ -32,7 +32,7 @@ function Body() {
             <section className='div-principal-produto'>
                 <div className='topo-produto'>
                     <span>Star Wars</span>
-                    <button>Ver tudo</button>
+                    <button className='button-ver'>Ver tudo</button>
                 </div>
 
                 <div className='produtos'>
@@ -85,7 +85,7 @@ function Body() {
             <section className='div-principal-produto'>
                 <div className='topo-produto'>
                     <span>Console</span>
-                    <button>Ver tudo</button>
+                    <button className='button-ver'>Ver tudo</button>
                 </div>
 
                 <div className='produtos'>
@@ -138,7 +138,7 @@ function Body() {
             <section className='div-principal-produto'>
                 <div className='topo-produto'>
                     <span>Diversos</span>
-                    <button>Ver tudo</button>
+                    <button className='button-ver'>Ver tudo</button>
                 </div>
 
                 <div className='produtos'>

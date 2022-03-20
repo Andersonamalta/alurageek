@@ -57,33 +57,24 @@ input {
     align-items: center;
     position: static;
     width: 393px;
-    height: 40px;
+    height: 35px;
     top: 5px;
     left: calc(50% - 393px / 2 + 104px);
-    padding: 8px, 16px, 8px, 16px;
+    padding: 5px;
     background-color: #f5f5f5;
     border: none;
     border-radius: 20px;
     flex: none;
     order: 1;
+    font-family: "Raleway", sans-serif;
+    font-size: 16px;
 }
 
-input::-webkit-input-placeholder {
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    padding: 0px;
-    position: static;
-    width: 329px;
-    height: 16px;
-    top: 12px;
-    left: 16px;
-    flex: none;
-    order: 0;
-    flex-grow: 1;
+input:focus {
+    outline: 0;
 }
 
-button {
+.button-topo {
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -105,6 +96,12 @@ button {
     font-size: 16px;
     line-height: 18.78px;
     background-color: transparent;
+}
+
+.button-topo:hover {
+    background-color: #2a7be4;
+    border: none;
+    color: #ffffff;
 }
 
 .hero {
@@ -162,13 +159,13 @@ button {
     font-weight: 700;
     font-size: 22px;
     line-height: 26px;
-    color: #FFFFFF;
+    color: #ffffff;
     flex: none;
     order: 1;
     flex-grow: 0;
 }
 
-.hero button{
+.button-hero {
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -182,6 +179,36 @@ button {
     flex: none;
     order: 2;
     flex-grow: 0;
-    color: #FFFFFF;
+    color: #ffffff;
     font-family: "Raleway", sans-serif;
+    border: none;
+    font-size: 16px;
 }
+
+.button-hero:hover {
+    background-color: #1a5fb9;
+}
+
+/* Mobile*/
+
+@media only screen and (max-width: 480px) {
+    .topo {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        padding: 16px;
+        position: static;
+        width: 360px;
+        height: 72px;
+        left: 0px;
+        top: 0px;
+        background-color: #ffffff;
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+        margin: 0px 0px;
+    }
+}
+
+/* Mobile*/

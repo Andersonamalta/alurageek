@@ -100,7 +100,7 @@
     height: 56px;
     border: none;
     border-radius: 0px;
-    background-color: #f7f4f4;
+    background-color: #ffffff;
     flex: none;
     align-self: stretch;
     font-size: 17px;
@@ -113,7 +113,7 @@
     height: 82px;
     top: 72px;
     border: none;
-    background-color: #f7f4f4;
+    background-color: #ffffff;
     flex: none;
     border-radius: 0px;
     padding: 2px;
@@ -122,7 +122,7 @@
     font-family: "Raleway", sans-serif;
 }
 
-.contato button{
+.botao-contato{
     position: static;
     width: 170px;
     height: 51px;
@@ -132,6 +132,12 @@
     flex: none;
     font-family: "Raleway", sans-serif;
     color: #ffffff;
+    border: none;
+    font-size: 16px;
+}
+
+.botao-contato:hover{
+    background-color: #1a5fb9;
 }
 
 .rodape{

@@ -22,7 +22,7 @@ function Footer() {
                             <input className='nome' placeholder='Nome'/>
                             <input className='mensagem' placeholder='Escreva sua mensagem'/>
                         </div>
-                        <button>Enviar mensagem</button>
+                        <button className='botao-contato'>Enviar mensagem</button>
 
                     </div>
 

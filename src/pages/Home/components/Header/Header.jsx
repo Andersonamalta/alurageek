@@ -14,7 +14,7 @@ function Header() {
                         <img src={Logo} />
                         <input placeholder='O que deseja encontrar?'/>
                     </div>
-                    <button>Login</button>
+                    <button className='button-topo'>Login</button>
                 </div>
             </div>
             <div className='hero'>
@@ -22,7 +22,7 @@ function Header() {
                 <div className='texto-banner'>
                     <span className='texto1'>Dezembro Promocional</span>
                     <span className='texto2'>Produtos selecionados com 33% de desconto</span>
-                    <button>Ver Consoles</button>
+                    <button className='button-hero'>Ver Consoles</button>
                 </div>
             </div>
 
